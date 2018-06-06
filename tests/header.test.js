@@ -25,5 +25,6 @@ test('Clicking login starts the OAuth flow', async () => {
   const url = await page.url();
 
   expect(url).toMatch(/accounts\.google\.com/);
-  
+
 });
+
